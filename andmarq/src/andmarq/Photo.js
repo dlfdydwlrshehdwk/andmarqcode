@@ -50,7 +50,7 @@ function Photo(){
         
         </>
     )
-} // Photo //
+} // Photo //cd
 
 // 내보내기
 export default Photo; 
