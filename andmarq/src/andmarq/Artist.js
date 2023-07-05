@@ -12,22 +12,7 @@ function Artist(props){
     let {id} = useParams();
     console.log('id값',id)
     const [sunser, setSunser] = useState([1,0,0,0])
-    // setSunser(변수값)
     console.log("sunser:",sunser)
-    // 이거의 값은?? [1,0,0,0]
-    // setSunser([0,0,0,0])]
-
-    // 스테이트를 만드는법
-    // const [ 변수이름 , 변수를바꿔줄함수이름 ] = useState(기본값)
-    // 이름은 맘대로지어도되나 함수이름은 set + 앞글자 대문자 이렇게 짓는게 예의 
-    // num -> setNum 
-    // 스테이트의 값을 바꾸는법
-    // 변수를바꿔줄함수이름(값) -> setNum(num + 1)
-
-    // useEffect(()=>{
-    //     setSunser(sunser = !sunser)
-    // },[sunser])
-
     let drama = data[id].드라마.split("^");
     let movie = data[id].영화.split("^");
     let awards = data[id].수상내역.split("^");
