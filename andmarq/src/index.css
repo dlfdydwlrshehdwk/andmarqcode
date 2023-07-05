@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* 전체 페이지 공통 CSS - index.html */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* 
+    영문 포인트
+    font-family: 'Abhaya Libre', serif;
+
+    영문, 한글 기본
+    font-family: 'Noto Sans KR', sans-serif;
+*/
+
+html,body,ul,ol,li,h1,h2,h3,h4,div,span,p,a{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* color: #ff3901; */
+}
+
+/* ul, ol 설정 */
+ul,ol,li,a{
+    list-style: none;
+    text-decoration: none;
+    /* color: #ff3901; */
+}

@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* Main2.js CSS - main2.css */
+
+#main2{
+    padding: 3%;
+}
+
+.main2_wrap{
+    margin-top: 4%;
+}
+
+.main2_artwrap, .main2_stuwrap{
+    padding-top: 1.5%;
+}
+
+.main2_bxtxt a{
+    padding-left: 3%;
+}
+
+/* 아티스트 박스 */
+.main2_artwrap{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main2_artimg{
+    cursor: pointer;
+    width: 32.33%;
+}
+
+.main2_artimg:nth-child(4),
+.main2_artimg:nth-child(5),
+.main2_artimg:nth-child(6){
+    padding-top: 1.5%;
+}
+
+.main2_artimg img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* 스튜디오 박스 */
+.main2_stubx{
+    padding-top: 10%;
+}
+
+.main2_stuwrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main2_stuwrap>div:nth-child(odd){
+    border-right: 0.5px solid #ff3901;
+    border-left: 0.5px solid #ff3901;
+}
+
+.main2_stuwrap>div:nth-child(even){
+    border-right: 0.5px solid #ff3901;
+}
+
+.main2_stuwrap>div:last-child{
+    border-bottom: 0.5px solid #ff3901;
+}
+
+.main2_stuimg{
+    position: relative;
+    width: 50%;
+    border-top: 0.5px solid #ff3901;
+    box-sizing: border-box;
+    height: 50%;
+    cursor: pointer;
+}
+
+.main2_stuimg div{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 50%;
+}
+
+.main2_stuimg img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}

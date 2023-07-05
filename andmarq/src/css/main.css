@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* Main.js CSS - main.css */
+#main{
+    pointer-events: all;
+    text-align: center;
+}
+
+.bgimg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.bgimg > img{
+    opacity: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.sqwrap{
+    width: 189%;
+    display: flex;
+    position: absolute;
+    /* top: 75%; */
+    top: 50%;
+    left: 45%;
+    z-index: 2;
+    /* transform: translateX(-50%); */
+    transform: translate(-50%,-50%);
+    gap: 0 17px;
+    opacity: 0;
+}
+
+.sqwrap div{
+    top: 0;
+    position: absolute;
+    width: 30px;
+    height: 100px;
+    border: 1px solid #ff3901;
+    transition: 0.3s;
+    z-index: 3333;
+    pointer-events: all;
+    background-color: transparent;
+}
+
+.sqwrap div:nth-child(6),
+.sqwrap div:nth-child(12){
+    transform: translateY(-10%);
+}
+
+.sqwrap div:nth-child(7),
+.sqwrap div:nth-child(11){
+    transform: translateY(-20%);
+}
+
+.sqwrap div:nth-child(8),
+.sqwrap div:nth-child(10){
+    transform: translateY(-30%);
+}
+
+.sqwrap div:nth-child(9){
+    transform: translateY(-40%);
+    /* background-color: #ff3901; */
+}
+
+.sqwrap a{
+    color: #fff;
+    opacity: 0;
+}
+
+.txtcolor{
+    color: #ff3901;
+}
+
+.clicktxt{
+    opacity: 0;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+}
+
+.arrowwrap{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 30%;
+    width: 100%;
+    padding: 0 6.5%;
+    margin: 0 auto;
+    cursor: pointer;
+    opacity: 0;
+    font-size: 10vw;
+    box-sizing: border-box;
+}
+
+.sqwrap div:nth-child(1){ left: 0%;}
+.sqwrap div:nth-child(2){ left: 6.25%;}
+.sqwrap div:nth-child(3){ left: 12.5%;}
+.sqwrap div:nth-child(4){ left: 18.75%;}
+.sqwrap div:nth-child(5){ left: 25%;}
+.sqwrap div:nth-child(6){ left: 31.25%;}
+.sqwrap div:nth-child(7){ left: 37.5%;}
+.sqwrap div:nth-child(8){ left: 43.75%;}
+.sqwrap div:nth-child(9){ left: 50%;}
+.sqwrap div:nth-child(10){ left: 56.25%;}
+.sqwrap div:nth-child(11){ left: 62.5%;}
+.sqwrap div:nth-child(12){ left: 68.75%;}
+.sqwrap div:nth-child(13){ left: 75%;}
+.sqwrap div:nth-child(14){ left: 81.25%;}
+.sqwrap div:nth-child(15){ left: 87.5%;}
+.sqwrap div:nth-child(16){ left: 93.75%;}

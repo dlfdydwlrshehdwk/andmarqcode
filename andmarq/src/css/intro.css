@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* Intro.js CSS - intro.css */
+
+#intro{
+    /* display: none; */
+    height: 100vh;
+    width: 100vw;
+    top: 0%;
+    position: absolute;
+    background-color: #ff3901;
+}
+
+.txt{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -48%);
+    color: #fff;
+}
+
+.txt>h4{
+    font-weight: lighter;
+    font-size: min(25px,3vw);
+    text-align: center;
+}
+
+.txt>h1{
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Abhaya Libre', serif;
+    font-size: max(50px,11vw);
+    line-height: 0.8;
+    margin-top: 8%;
+}
+
+.copy{
+    position: absolute;
+    left: 50%;
+    bottom: 3%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: min(15px,2vw);
+    font-weight: lighter;
+    letter-spacing: 1px;
+}

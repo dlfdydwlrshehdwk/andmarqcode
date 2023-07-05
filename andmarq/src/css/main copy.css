@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* Main.js CSS - main.css */
+#main{
+    pointer-events: all;
+}
+
+.bgimg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.bgimg > img{
+    /* opacity: 0; */
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.sqwrap{
+    width: 80%;
+    position: absolute;
+    /* top: 75%; */
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    /* transform: translateX(-50%); */
+    transform: translate(-50%,-50%);
+    /* opacity: 0; */
+    outline: 1px dashed hotpink;
+}
+aside{
+    display: flex;
+    width: 100%;
+    gap: 0 1%;
+    justify-content: center;
+
+}
+
+.sqwrap div{
+    flex-shrink: 0;
+    top: 40%;
+    /* position: absolute; */
+    width: 6.7%;
+    aspect-ratio: 30/100;
+    /* height: 100px; */
+    border: 1px solid #ff3901;
+    transition: 0.3s;
+    z-index: 3333;
+    pointer-events: all;
+    background-color: transparent;
+}
+
+.sqwrap div:nth-child(1){
+
+}
+
+.sqwrap div:nth-child(15){
+    transform: translateY(20%);
+}
+
+.sqwrap div:nth-child(2){
+
+}
+
+.sqwrap div:nth-child(14){
+    transform: translateY(10%);
+}
+
+.sqwrap div:nth-child(3){
+
+}
+
+.sqwrap div:nth-child(13){
+    transform: translateY(0%);
+}
+
+.sqwrap div:nth-child(4){
+
+}
+
+.sqwrap div:nth-child(12){
+    transform: translateY(-10%);
+}
+
+.sqwrap div:nth-child(5){
+
+}
+
+.sqwrap div:nth-child(11){
+    transform: translateY(-20%);
+}
+
+.sqwrap div:nth-child(6){
+
+}
+
+.sqwrap div:nth-child(10){
+    transform: translateY(-30%);
+}
+
+.sqwrap div:nth-child(7){
+
+}
+
+.sqwrap div:nth-child(9){
+    transform: translateY(-40%);
+}
+
+.sqwrap div:nth-child(8){
+    transform: translateY(-50%);
+    /* background-color: #ff3901; */
+}
+
+.txtcolor{
+    color: #ff3901;
+}
+
+.clicktxt{
+    text-align: center;
+    /* opacity: 0; */
+}
+
+.arrowwrap{
+    display: flex;
+    justify-content: space-around;
+    /* opacity: 0; */
+    cursor: pointer;
+}
+
+/* 
+.sqwrap div:nth-child(1){ left: 0%;}
+.sqwrap div:nth-child(2){ left: 6.25%;}
+.sqwrap div:nth-child(3){ left: 12.5%;}
+.sqwrap div:nth-child(4){ left: 18.75%;}
+.sqwrap div:nth-child(5){ left: 25%;}
+.sqwrap div:nth-child(6){ left: 31.25%;}
+.sqwrap div:nth-child(7){ left: 37.5%;}
+.sqwrap div:nth-child(8){ left: 43.75%;}
+.sqwrap div:nth-child(9){ left: 50%;}
+.sqwrap div:nth-child(10){ left: 56.25%;}
+.sqwrap div:nth-child(11){ left: 62.5%;}
+.sqwrap div:nth-child(12){ left: 68.75%;}
+.sqwrap div:nth-child(13){ left: 75%;}
+.sqwrap div:nth-child(14){ left: 81.25%;}
+.sqwrap div:nth-child(15){ left: 90%;} */
+
+.sqwrap div:nth-child(1){ left: 0%;}
+.sqwrap div:nth-child(2){ left: 6.7%;}
+.sqwrap div:nth-child(3){ left: 13.4%;}
+.sqwrap div:nth-child(4){ left: 20.1%;}
+.sqwrap div:nth-child(5){ left: 26.8%;}
+.sqwrap div:nth-child(6){ left: 33.5%;}
+.sqwrap div:nth-child(7){ left: 40.2%;}
+.sqwrap div:nth-child(8){ left: 46.9%;}
+.sqwrap div:nth-child(9){ left: 53.6%;}
+.sqwrap div:nth-child(10){ left: 60.3%;}
+.sqwrap div:nth-child(11){ left: 67%;}
+.sqwrap div:nth-child(12){ left: 73.7%;}
+.sqwrap div:nth-child(13){ left: 80.4%;}
+.sqwrap div:nth-child(14){ left: 87.1%;}
+.sqwrap div:nth-child(15){ left: 93.8%;}
