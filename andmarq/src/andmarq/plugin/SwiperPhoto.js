@@ -1,12 +1,14 @@
 // 포토 슬라이드 스와이퍼 js - SwiperPhoto.js
 
-import { Swiper, SwiperSlide } from "swiper/react";
-
+// import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react"
 // 제이쿼리 넣기
 import $ from 'jquery';
 
 // import required modules
-import { Pagination, Navigation } from "swiper";
+// import { pagination, navigation } from "swiper";
+import  pagination from "swiper"
+import  navigation from "swiper"
 
 import { useParams } from "react-router-dom";
 import React, { useEffect, useState } from "react";
@@ -36,10 +38,10 @@ export default function SwiperPhoto(props){
 
     return (
         <>
-                {/* <Swiper
+                <Swiper
                 pagination={{type: "progressbar"}}
                 navigation={true}
-                modules={[Pagination, Navigation]}
+                modules={[pagination, navigation]}
                 className="mySwiper">
                     <div>안녕하세요</div>
                     {
@@ -51,7 +53,7 @@ export default function SwiperPhoto(props){
                         )
                     }
                     
-                </Swiper> */}
+                </Swiper>
         </>
     );
   

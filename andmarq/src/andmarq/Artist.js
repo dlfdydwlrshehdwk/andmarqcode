@@ -39,12 +39,12 @@ function Artist(props){
                                 <h3>
                                     {data[id].한글이름}
                                     <a href={data[id].인스타그램} target="_blank">
-                                        {/* <FontAwesomeIcon
+                                        <FontAwesomeIcon
                                             icon={faInstagram}
                                             className="instagrambtn"
                                             title="Open instagram"
                                             size="sm"
-                                        /> */}
+                                        />
                                     </a>
                                 </h3>
                                 <h4>{data[id].영어이름.toUpperCase()} | {data[id].생년월일}</h4>
