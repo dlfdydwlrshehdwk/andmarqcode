@@ -36,7 +36,7 @@ export default function SwiperPhoto(props){
 
     return (
         <>
-                <Swiper
+                {/* <Swiper
                 pagination={{type: "progressbar"}}
                 navigation={true}
                 modules={[Pagination, Navigation]}
@@ -51,11 +51,7 @@ export default function SwiperPhoto(props){
                         )
                     }
                     
-                    {/* <SwiperSlide>Slide 2</SwiperSlide>
-                    <SwiperSlide>Slide 3</SwiperSlide>
-                    <SwiperSlide>Slide 4</SwiperSlide>
-                    <SwiperSlide>Slide 5</SwiperSlide> */}
-                </Swiper>
+                </Swiper> */}
         </>
     );
   

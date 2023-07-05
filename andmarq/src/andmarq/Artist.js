@@ -54,12 +54,12 @@ function Artist(props){
                                 <h3>
                                     {data[id].한글이름}
                                     <a href={data[id].인스타그램} target="_blank">
-                                        <FontAwesomeIcon
+                                        {/* <FontAwesomeIcon
                                             icon={faInstagram}
                                             className="instagrambtn"
                                             title="Open instagram"
                                             size="sm"
-                                        />
+                                        /> */}
                                     </a>
                                 </h3>
                                 <h4>{data[id].영어이름.toUpperCase()} | {data[id].생년월일}</h4>
@@ -84,12 +84,6 @@ function Artist(props){
                                    setSunser(copy)}}
                                 >＋</div>
                             }
-
-                            {/* 리액트 state 값 설명한 동호의 블로그 */}
-                            {/* https://blog.naver.com/fkrmsk147/223114766893 */}
-
-
-                            {/* - 버튼을 클릭하면 setsunser의 값을 [0,0,0,0] 모두 닫힌 상태로 해줘 */}
 
                         </div>
                         <div className="wordbreak">
@@ -164,10 +158,6 @@ function Artist(props){
                             }
                         </div>
                         <div className="wordbreak">
-                            {/* {
-                                조건 == ? 맞으면이거 : 틀리면이거
-                                조건 && 그럼이거! 
-                            } */}
                             {
                                 sunser[2] == 1 &&
                                 <>
