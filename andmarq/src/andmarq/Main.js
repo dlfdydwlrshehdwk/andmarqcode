@@ -10,6 +10,8 @@ import { Link } from "react-router-dom";
 function Main(){
 
 
+    let [ set , setSet ] = useState(0)
+
     
     function jq(){}
 
@@ -129,8 +131,11 @@ function Main(){
         console.log(num)
     },[num])
 
+   
+
     return(
         <>
+        
             <section id="main">
                 <div>
 
@@ -248,13 +253,13 @@ function Main(){
                     <div className="arrowwrap txtcolor">
                         <div 
                         className="leftarrow" 
-                        onClick={leftbtn}
+                        onClick={rightbtn}
                         ><span onClick={()=>{
                             num == 0 ? setNum(15) : setNum(num-1)    
                         
                             }}>←</span></div>
 
-                        <div className="rightarrow" onClick={rightbtn}>
+                        <div className="rightarrow" onClick={leftbtn}>
                         <span onClick={()=>{
                             num == 15 ? setNum(0)
                             : setNum(num+1)
@@ -265,6 +270,8 @@ function Main(){
 
                 </div>
             </section>
+            
+
 
             {/* 호출 */}
             {jq()}

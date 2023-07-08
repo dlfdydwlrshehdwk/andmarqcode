@@ -89,6 +89,7 @@ const Layout = () => {
                 // 클릭된 a에 밑줄 효과 유지
                 $(".mlist li a").removeClass('on');
 
+                $('.bgimg img').css({opacity : 1})
             }); // click //
 
 
@@ -111,83 +112,7 @@ const Layout = () => {
 
             } // menuClose //
 
-            setTimeout(() => {
-
-                $('#intro').css({
-                    top: '-100%',
-                    transition: '.5s ease-out'
-                }) // css //
-                
-            }, 1000); // setTimeout //
-
-            setTimeout(() => {
-
-                $('.sqwrap').css({
-                    opacity: "1",
-                    transition: "1s ease-in-out"
-                }) // css //
-                
-            }, 2000);
-            
-            setTimeout(() => {
-                $('.clicktxt').css({
-                    opacity: "1",
-                    transition: "1s linear"
-                }) // css //
-            }, 3000);
-            
-            setTimeout(() => {
-                $('.clicktxt').css({
-                    opacity: "0",
-                    transition: "1s linear"
-                }) // css //
-            }, 4000);
-            
-            setTimeout(() => {
-                $('.clicktxt').css({
-                    opacity: "1",
-                    transition: "1s linear"
-                }) // css //
-            }, 5000);
-            
-            setTimeout(() => {
-
-                $('.clicktxt').css({
-                    opacity: "0",
-                    transition: "1s ease-in"
-                }) // css //
-
-            }, 6000);
-
-            setTimeout(() => {
-                $('.sqwrap').css({
-                    top: "75%",
-                    transition: "1.5s ease-out"
-                }) // css //
-
-            }, 7500);
-
-            setTimeout(() => {
-                $('.sqbx').find('div').eq(8).css({
-                    backgroundColor: "#ff3901",
-                    transition: "1.5s ease-in-out"
-                }) // css //
-                
-            }, 9500);
-
-            setTimeout(() => {
-
-                $('.bgimg img').css({
-                    opacity: "1",
-                    transition: "1.5s ease-out"
-                }) // css //
-
-                $('.arrowwrap').css({
-                    opacity: "1",
-                    transition: "1.5s ease-in"
-                }) // css //
-                
-            }, 10500);
+           
 
 
          
@@ -195,11 +120,7 @@ const Layout = () => {
 
     } // jq //
     
-    useEffect(()=>{
-        setTimeout(()=>{
-            setSet(1)
-        },10500)
-    },[])
+    
 
     return(
 
