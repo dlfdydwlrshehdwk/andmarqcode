@@ -6,6 +6,7 @@ import $ from "jquery";
 import artist_data from "./data/artist_data";
 import { Link } from "react-router-dom";
 
+// 기능 왼쪽버튼 오른쪽버튼 기능할당밖에없는듯
 function Main(){
 
 
