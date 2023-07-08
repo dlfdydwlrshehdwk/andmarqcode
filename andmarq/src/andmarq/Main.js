@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 
 function Main(){
 
+
+    
     function jq(){}
 
     const leftbtn = () => {
@@ -23,22 +25,26 @@ function Main(){
             backgroundColor: "#fff",
         });
 
-        $('.sqbx div').eq(0).css({left : 93.75 + '%', transition: "none", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(1).css({left : 0 + '%', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(2).css({left : 6.25 + '%', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(3).css({left : 12.5 + '%', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(4).css({left : 18.75 + '%', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(5).css({left : 25 + '%', transform: 'translateY(0%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(6).css({left : 31.25 + '%', transform: 'translateY(-10%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(7).css({left : 37.5 + '%', transform: 'translateY(-20%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(8).css({left : 43.75 + '%', transform: 'translateY(-30%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(9).css({left : 50 + '%', transform: 'translateY(-40%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(10).css({left : 56.25 + '%', transform: 'translateY(-30%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(11).css({left : 62.5 + '%', transform: 'translateY(-20%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(12).css({left : 68.75 + '%', transform: 'translateY(-10%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(13).css({left : 75 + '%', transform: 'translateY(0%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(14).css({left : 81.25 + '%', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(15).css({left : 87.5 + '%', transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(0).css({left : 155 + '%', transition: "none", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(1).css({left : -70 + '%', transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(2).css({left : -55 + '%', transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(3).css({left : -40 + '%', transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(4).css({left : -25 + '%', transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(5).css({left : -10 + '%', transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(6).css({left : 5 + '%',transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(7).css({left : 20 + '%', transition: ".4s", backgroundColor: 'transparent'});
+
+        // 얘가중앙
+        $('.sqbx div').eq(8).css({left : 35 + '%', transition: ".4s", backgroundColor: 'transparent'});
+
+
+        $('.sqbx div').eq(9).css({left : 50 + '%',  transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(10).css({left : 65 + '%', transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(11).css({left : 80 + '%',  transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(12).css({left : 95 + '%',  transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(13).css({left : 110 + '%', transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(14).css({left : 125 + '%', transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(15).css({left : 140 + '%', transition: ".4s", backgroundColor: 'transparent'});
 
         console.log('변신 후:',list)
         slide.append(list.eq(0))
@@ -56,6 +62,16 @@ function Main(){
 
     } // leftbtn //
 
+
+
+
+
+
+
+
+
+
+
     const rightbtn = () => {
         
         let slide = $('.sqbx');
@@ -69,22 +85,24 @@ function Main(){
             backgroundColor: "#fff",
         });
         
-        $('.sqbx div').eq(0).css({left : 6.25 + '%', transform: 'translateY(0%)', transition: "none", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(1).css({left : 12.5 + '%', transform: 'translateY(0%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(2).css({left : 18.75 + '%', transform: 'translateY(0%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(3).css({left : 25 + '%', transform: 'translateY(0%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(4).css({left : 31.25 + '%', transform: 'translateY(-10%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(5).css({left : 37.5 + '%', transform: 'translateY(-20%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(6).css({left : 43.75 + '%', transform: 'translateY(-30%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(7).css({left : 50 + '%', transform: 'translateY(-40%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(8).css({left : 56.25 + '%', transform: 'translateY(-30%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(9).css({left : 62.5 + '%', transform: 'translateY(-20%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(10).css({left : 68.75 + '%', transform: 'translateY(-10%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(11).css({left : 75 + '%', transform: 'translateY(-0%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(12).css({left : 81.25 + '%', transform: 'translateY(-0%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(13).css({left : 87.5 + '%', transform: 'translateY(0%)', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(14).css({left : 93.75 + '%', transition: ".4s", backgroundColor: 'transparent'});
-        $('.sqbx div').eq(15).css({transition: "none",left : 100 + '%' , backgroundColor: 'transparent'});
+        $('.sqbx div').eq(0).css({left : -55 + '%', transition: "none", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(1).css({left : -40 + '%', transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(2).css({left : -25 + '%', transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(3).css({left : -10 + '%', transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(4).css({left : 5 + '%',  transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(5).css({left : 20 + '%',  transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(6).css({left : 35 + '%',  transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(7).css({left : 50 + '%',  transition: ".4s", backgroundColor: 'transparent'});
+
+        // 얘가중앙
+        $('.sqbx div').eq(8).css({left : 65 + '%',  transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(9).css({left : 80 + '%',  transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(10).css({left : 95 + '%',  transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(11).css({left : 110 + '%', transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(12).css({left : 125 + '%', transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(13).css({left : 140 + '%', transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(14).css({left : 155 + '%', transition: ".4s", backgroundColor: 'transparent'});
+        $('.sqbx div').eq(15).css({transition: "none",left : -70 + '%' , backgroundColor: 'transparent'});
 
         console.log('변신 후:',list)
 
@@ -229,13 +247,13 @@ function Main(){
                     <div className="arrowwrap txtcolor">
                         <div 
                         className="leftarrow" 
-                        onClick={rightbtn}
+                        onClick={leftbtn}
                         ><span onClick={()=>{
                             num == 0 ? setNum(15) : setNum(num-1)    
                         
                             }}>←</span></div>
 
-                        <div className="rightarrow" onClick={leftbtn}>
+                        <div className="rightarrow" onClick={rightbtn}>
                         <span onClick={()=>{
                             num == 15 ? setNum(0)
                             : setNum(num+1)

@@ -30,6 +30,7 @@ const Layout = () => {
             // 광클 금지 변수
             let prot= 0;
 
+            // 메뉴열고닫기 버튼
             $('.mbtn').on('click',function(){
                 
                 // 광클 금지 설정
@@ -47,6 +48,7 @@ const Layout = () => {
                 let menuTxt = $('.menu').text()
                 console.log(menuTxt);
 
+                // 메뉴에 글씨를 읽어 글씨에따른 분기
                 if(menuTxt == '(MENU)'){
                     $('.menu').text('(CLOSE)').css({
                         color: "#fff",

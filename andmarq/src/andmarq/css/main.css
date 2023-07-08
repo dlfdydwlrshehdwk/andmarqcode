@@ -42,6 +42,8 @@
     left: 50%;
     transform: translateX(-50%);
     display: flex;
+
+    overflow: hidden;
 }
 
 .sqbx div{
@@ -118,6 +120,7 @@
 .sqbx div:nth-child(6){ left: 5%;}
 .sqbx div:nth-child(7){ left: 20%;}
 .sqbx div:nth-child(8){ left: 35%;}
+/* 얘가 가운데 */
 .sqbx div:nth-child(9){ left: 50%;}
 .sqbx div:nth-child(10){ left: 65%;}
 .sqbx div:nth-child(11){ left: 80%;}
@@ -126,3 +129,10 @@
 .sqbx div:nth-child(14){ left: 125%;}
 .sqbx div:nth-child(15){ left: 140%;}
 .sqbx div:nth-child(16){ left: 155%;}
+
+
+@media screen and (max-width : 800px) {
+    .sqwrap {
+        width: 165%;
+    }
+}
