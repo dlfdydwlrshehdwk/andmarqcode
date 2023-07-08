@@ -22,20 +22,29 @@
 }
 
 .sqwrap{
-    width: 189%;
+    width: 100%;
     display: flex;
     position: absolute;
     /* top: 75%; */
     top: 50%;
-    left: 45%;
+    left: 50%;
     z-index: 2;
     /* transform: translateX(-50%); */
     transform: translate(-50%,-50%);
     gap: 0 17px;
     opacity: 0;
 }
+.sqbx{
+    position: absolute;
+    width: 50%;
+    height: 30vh;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
 
-.sqwrap div{
+.sqbx div{
     top: 0;
     position: absolute;
     width: 30px;
@@ -49,22 +58,21 @@
 
 .sqwrap div:nth-child(6),
 .sqwrap div:nth-child(12){
-    transform: translateY(-10%);
+    transform: translate(-50%,50%);
 }
 
 .sqwrap div:nth-child(7),
 .sqwrap div:nth-child(11){
-    transform: translateY(-20%);
+    transform: translate(-50%,30%);
 }
 
 .sqwrap div:nth-child(8),
 .sqwrap div:nth-child(10){
-    transform: translateY(-30%);
+    transform: translate(-50%,20%);
 }
 
 .sqwrap div:nth-child(9){
-    transform: translateY(-40%);
-    /* background-color: #ff3901; */
+    transform: translate(-50%,0%);
 }
 
 .sqwrap a{
@@ -98,19 +106,23 @@
     box-sizing: border-box;
 }
 
-.sqwrap div:nth-child(1){ left: 0%;}
-.sqwrap div:nth-child(2){ left: 6.25%;}
-.sqwrap div:nth-child(3){ left: 12.5%;}
-.sqwrap div:nth-child(4){ left: 18.75%;}
-.sqwrap div:nth-child(5){ left: 25%;}
-.sqwrap div:nth-child(6){ left: 31.25%;}
-.sqwrap div:nth-child(7){ left: 37.5%;}
-.sqwrap div:nth-child(8){ left: 43.75%;}
-.sqwrap div:nth-child(9){ left: 50%;}
-.sqwrap div:nth-child(10){ left: 56.25%;}
-.sqwrap div:nth-child(11){ left: 62.5%;}
-.sqwrap div:nth-child(12){ left: 68.75%;}
-.sqwrap div:nth-child(13){ left: 75%;}
-.sqwrap div:nth-child(14){ left: 81.25%;}
-.sqwrap div:nth-child(15){ left: 87.5%;}
-.sqwrap div:nth-child(16){ left: 93.75%;}
+.sqbx div {
+    transform:  translate(-50%,50%);
+}
+
+.sqbx div:nth-child(1){ left: -70%;}
+.sqbx div:nth-child(2){ left: -55%;}
+.sqbx div:nth-child(3){ left: -40%;}
+.sqbx div:nth-child(4){ left: -25%;}
+.sqbx div:nth-child(5){ left: -10%;}
+.sqbx div:nth-child(6){ left: 5%;}
+.sqbx div:nth-child(7){ left: 20%;}
+.sqbx div:nth-child(8){ left: 35%;}
+.sqbx div:nth-child(9){ left: 50%;}
+.sqbx div:nth-child(10){ left: 65%;}
+.sqbx div:nth-child(11){ left: 80%;}
+.sqbx div:nth-child(12){ left: 95%;}
+.sqbx div:nth-child(13){ left: 110%;}
+.sqbx div:nth-child(14){ left: 125%;}
+.sqbx div:nth-child(15){ left: 140%;}
+.sqbx div:nth-child(16){ left: 155%;}

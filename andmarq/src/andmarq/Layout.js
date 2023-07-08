@@ -163,7 +163,7 @@ const Layout = () => {
             }, 7500);
 
             setTimeout(() => {
-                $('.sqwrap').find('div').eq(8).css({
+                $('.sqbx').find('div').eq(8).css({
                     backgroundColor: "#ff3901",
                     transition: "1.5s ease-in-out"
                 }) // css //
